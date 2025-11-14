@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import DashboardPage from "../dashboard/page";
 
 export default function LoginPage() {
   const router = useRouter();
