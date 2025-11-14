@@ -1,7 +1,7 @@
 // src/components/Navbar.tsx
 "use client";
 import Link from "next/link";
-// import { useCart } from "@/context/CartContext";
+
 import { useCart } from "../context/CartContext";
 
 export default function Navbar() {
@@ -9,7 +9,15 @@ export default function Navbar() {
 
   return (
     <nav className="bg-gray-800 text-white px-6 py-4 flex justify-between">
-      <Link href="/" className="font-bold text-lg">NextShop</Link>
+      <Link href={"/login"}>
+      <button className="px-2 py-1 bg-red-600 rounded hover:bg-red-700">
+        log in
+      </button>
+      </Link>
+      <Link href="/" className="font-bold text-lg">
+        Shopping
+      </Link>
+
       <Link href="/cart" className="relative">
         🛒 السلة
         {cart.length > 0 && (
