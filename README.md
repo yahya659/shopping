@@ -1,3 +1,4 @@
+![Dashboard Preview](./imge.png)
 # Shop - متجر إلكتروني مبني بـ Next.js و React
 
 مرحباً! هذا مشروع **متجر إلكتروني حديث** تم بناؤه باستخدام **Next.js 13**, **React**, **TailwindCSS** و **React Hot Toast**.
