@@ -34,7 +34,7 @@
 1. استنساخ المشروع:
 
 ```bash
-git clone https://github.com/Yahya659/nextshop.git
+git clone https://github.com/yahya659/shopping.git
 cd shopping
 npm install
 npm run dev
